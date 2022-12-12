@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #F7DAD9;
+}
+body img{
+    height: 150px;
+    width: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+#form h1{
+    color: #614344;
+
+}
+.render-contenedor img{
+    height: 150px;
+    width: auto;
+}
+.render-contenedor{
+    height: 300px;
+    width: 300px;
+    background-color: #A5907E;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#number{
+    padding: 5px;
+    border-radius: 15px;
+    background-color:#F1E3F3;
+    border: solid 2px;
+}
+#button{
+    padding: 10px;
+    border-radius: 150px;
+    border: solid 1px crimson;
+    background-color: #C2BBF0;
+    color: #332C23;
+    font-weight: 700;
+}
+.render_nombre{
+    font-weight: 700;
+    color: #F7DAD9;
+}
+.render_type span{
+    font-size: 20px;
+    color: #DDFFF7;
+}
+.render_altura{
+    color: #DDFFF7;
+}
+.render_peso{
+    color: #DDFFF7;
+}
+.render-h2{
+    font-size: 40px;
+    color: #614344;
+    font-weight: 700;
+    
+}
+.render-h3{
+    font-size: 24px;
+    color: #614344;
+    font-weight: 300;
+}
